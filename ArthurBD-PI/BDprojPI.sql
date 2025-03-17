@@ -43,8 +43,6 @@ QtdArvore varchar(50),
 -- inserindo os dados nas tabelas
 insert into login(nome,email,senha)  
 
-  
-
 values('Josué','josueandrade@gmail.com','Josue123'),  
 
   
@@ -103,7 +101,7 @@ select*from login where nome like '_o%';
 -- 
 
 select*from umidadeSolo; 
-select*from where alerta = 'sim';
+select*from terreno where alerta = 'sim';
 
 -- 
 select*from terreno;
